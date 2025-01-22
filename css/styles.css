@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 html{
-    font-family: Roboto;
+    font-family: 'Roboto';
 }
 
 .header,
-.footer {
+.footer,
+.hero {
     position: sticky;
     background-color: #1F2937;
-    color: aliceblue;
-    
+    color: #f8faf8; 
+    padding: .25em; 
 }
-ul{
+
+.footer {   
+    text-align: center;   
+}
+
+ ul{
     margin: 0;
     padding: 0;
     display: flex;
@@ -21,24 +27,42 @@ ul{
 li a {
     display: block;
     color: white;
-    /* text-align: center; */
+    text-align: center; 
     text-decoration: none;
     padding: 12px;
 }
 
-.header_ul{
-    list-style-type: none;
-    margin-left: 500px;
-} 
-
-header{
-
-    color: #f9faf8;
-    font-size: 24px;
+button{
+    background-color: #3882f6;
+    color: #f8faf8;
+    border-radius: 5px;
 }
 
-.footer {
-    bottom: 0;
+.quote{
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 48px;
+}
+
+.image{
+    background-color: white;
+    align-items: center;
     text-align: center;
-    
+    /* padding: 12px; */
 }
+.action-call{
+    background-color: #3882f6;
+    color: #f8faf8;
+    border-radius: 10px;
+    text-align: center;
+    text-indent: 25px;
+    padding: .2em .5em;
+    
+
+}
+/* img.image{
+    
+    border: 5px solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+} */
