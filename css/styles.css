@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-family: Roboto;
+}
+
+.header,
+.footer {
+    position: sticky;
+    background-color: #1F2937;
+    color: aliceblue;
+    padding: .25em;
+}
+
+.header_ul{
+    list-style-type: none;
+    gap: 1rem;
+    flex-direction: column-reverse;
+
+
+}
+
+.footer {
+    bottom: 0;
+    text-align: center;
+    
+}
