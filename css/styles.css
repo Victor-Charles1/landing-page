@@ -6,8 +6,9 @@ html{
 
 .header,
 .footer,
-.hero {
-    position: sticky;
+.hero
+ {
+     /* position: sticky;  */
     background-color: #1F2937;
     color: #f8faf8; 
     padding: .25em; 
@@ -21,7 +22,7 @@ html{
     margin: 0;
     padding: 0;
     display: flex;
-    text-decoration: none;
+    list-style-type: none;
 }
 
 li a {
@@ -36,6 +37,7 @@ button{
     background-color: #3882f6;
     color: #f8faf8;
     border-radius: 5px;
+    border-color: white;
 }
 
 .quote{
@@ -50,19 +52,29 @@ button{
     text-align: center;
     /* padding: 12px; */
 }
-.action-call{
+.action_call{
     background-color: #3882f6;
     color: #f8faf8;
     border-radius: 10px;
     text-align: center;
     text-indent: 25px;
     padding: .2em .5em;
+    margin: 10px;
     
 
 }
-/* img.image{
+/* .hero{
     
-    border: 5px solid;
-    border-color: #3882f6;
-    border-radius: 10px;
+    background-color: #1F2937;
+    color: #f8faf8; 
 } */
+
+.header_nav{
+    text-decoration: none;
+    
+}
+
+.header_h1{
+    margin-right: 800px;
+    
+}
